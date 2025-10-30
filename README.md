@@ -1,6 +1,6 @@
 Register User
 
-URL: /api/auth/register
+URL: https://authentication-app-ee8g.onrender.com/api/auth/register
 Method: POST
 Description: Registers a new user.
 
@@ -35,7 +35,7 @@ Email should be unique.
 
 Login User
 
-URL: /api/auth/login
+URL: https://authentication-app-ee8g.onrender.com/api/auth/login
 Method: POST
 Description: Logs in a user and returns a JWT token.
 
@@ -70,12 +70,12 @@ or
 
 Notes:
 
-The token expires in 1 hour (expiresIn: '1h').
+The token expires in 1 day (expiresIn: '1d').
 
 Use this token for accessing protected routes.
 Get Current User (Protected Route)
 
-URL: /api/auth/me
+URL: https://authentication-app-ee8g.onrender.com/api/auth/me
 Method: GET
 Description: Returns the logged-in user's data. Requires JWT authentication.
 
